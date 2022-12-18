@@ -1,0 +1,98 @@
+/* Change Brand Name Font */
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Change Navigation color */
+.navbar #myMenu .custom-nav .nav-item a {
+  color: #fff;
+}
+
+.navbar #myMenu .custom-nav .nav-item a:hover {
+  background-color: white !important;
+  color: #0a3153 !important;
+  border-radius: 10px;
+}
+
+/* Make Header Image Responsive */
+.back-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  border-radius: 0px;
+  margin-top: 74px;
+}
+
+/* Header Image Sub-Title */
+.font-italic {
+  font-size: 24px;
+}
+
+.fi-color {
+  color: #dc3545;
+}
+
+
+a {
+  color: black;
+}
+
+.active {
+  color: white;
+  background-color: #dc3545;
+}
+
+a:hover {
+  color: #f26571;
+}
+
+/* Margin for Welcome to OSMS */
+.back-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image:url(../images/Banner.jpg);
+}
+
+.mainHeading {
+    background-color: #e9e9e9;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.custom-nav{
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.custom-nav li{
+   border: 0.2px solid white;
+   margin-left: 10px;
+   border-radius: 10px;
+   padding: 2px;
+}
+
+.custom-nav li:hover{
+  
+}
+
+.bg-color{
+  background-color: #0a3153 !important;
+}
+
+/*  */
+@media only screen and (max-width: 600px) {
+  .myclass {
+    margin-top: 350px;
+    text-align: center;
+  }
+}
